@@ -1,6 +1,7 @@
 import Vue from 'vue'
-import { Button, Container, Header, Aside, Main, Submenu, MenuItemGroup, MenuItem, Menu, Breadcrumb, Col, Row, Dialog, Pagination, Card, Input, Table, TableColumn } from 'element-ui'
+import { Scrollbar, Button, Container, Header, Aside, Main, Submenu, MenuItemGroup, MenuItem, Menu, Breadcrumb, Col, Row, Dialog, Pagination, Card, Input, Table, TableColumn } from 'element-ui'
 
+Vue.use(Scrollbar)
 Vue.use(Button)
 Vue.use(Container)
 Vue.use(Header)

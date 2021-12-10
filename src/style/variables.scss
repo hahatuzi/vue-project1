@@ -1,0 +1,47 @@
+// sidebar
+// $menuBg: #001529;
+$menuBg: rgba(0,0,0,0);
+$nestMenuBg: #0E1D3B;
+// $menuActive: #000c17;
+$menuActive: linear-gradient(90deg, rgba(43, 181, 255, 0.04) 0%, rgba(98, 159, 255, 0.27) 100%);
+// $menuText: #ffffffb3;
+$menuText: #ffffffa6;
+$menuActiveText: #409eff;
+$menuHoverText: #fff;
+
+// $subMenuBg: #000c17;
+$subMenuBg: rgba(0,0,0,0.3);
+// $subMenuActive: #409eff;
+$subMenuActive: linear-gradient(90deg, rgba(43, 181, 255, 0.04) 0%, rgba(98, 159, 255, 0.27) 100%);
+// $subMenuActiveText: #fff; //https://github.com/ElemeFE/element/issues/12951
+$subMenuActiveText: #409eff;
+
+$sideBarWidth: 210px;
+
+// header栏高度
+$headerHeight: 96px;
+
+$baseColorBlue: #409eff;
+
+
+/** 文字颜色 **/
+// 主要文字
+$mainTextColor: #303133;
+// 常规文字
+$regularTextColor: #606266;
+// 次要文字
+$secondaryTextColor: #909399;
+// 占位文字
+$placeholderTextColor: #C0C4CC;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  subMenuBg: $subMenuBg;
+  sideBarWidth: $sideBarWidth;
+  baseColorBlue: $baseColorBlue;
+}
